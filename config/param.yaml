@@ -1,0 +1,18 @@
+%YAML:1.0
+
+# sensor
+Record.sensor.imu:true
+Record.sensor.stereo:true
+Record.sensor.rgbd:true
+Record.sensor.lidar:true
+
+# pixhawk
+Record.pixhawk.px4flow:true
+Record.pixhawk.imu:true
+
+
+Record.vicon:true
+Record.rtk:true
+
+Record.file:"/home/zhouqiang/Record/allSourceData"
+
