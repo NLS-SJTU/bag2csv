@@ -1,0 +1,14 @@
+<launch>
+	<node	name="bag2csv_node"
+		pkg="bag2csv"
+		type="bag2csv_node"
+		respawn="false"
+		output="screen">
+	</node>
+	<node	name="bag2csv_gui_node"
+		pkg="bag2csv"
+		type="bag2csv_gui_node"
+		respawn="false"
+		output="screen">
+	</node>
+</launch>
